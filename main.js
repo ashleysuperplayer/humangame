@@ -18,7 +18,7 @@ function initCanvas() {
 	ctx.fill();
 }
 
-function boobie() {
+/*function boobie() {
 	timer = setInterval(shitFunction, 1000);
 }
 
@@ -33,3 +33,4 @@ function shitFunction() {
 
 }
 boobie();
+/*
