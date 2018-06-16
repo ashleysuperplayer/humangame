@@ -11,6 +11,8 @@ var canvas, ctx;
 function initCanvas() {
 	canvas = document.getElementById("diCanvas"),
 	ctx = canvas.getContext("2d");
+	ctx.canvas.width = window.innerWidth;
+	ctx.canvas.width = window.innerHeight;
 	ctx.fillStyle = "#999";
 	ctx.beginPath();
 	ctx.fill();
