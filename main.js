@@ -1,5 +1,8 @@
 console.clear();
 
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
 var toggle = true;
 var timer;
 
@@ -10,7 +13,6 @@ function initCanvas() {
 	ctx = canvas.getContext("2d");
 	ctx.fillStyle = "#999";
 	ctx.beginPath();
-	ctx.arc(100,100,75,0,2*Math.PI);
 	ctx.fill();
 }
 
